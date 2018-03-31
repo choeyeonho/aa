@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{19343731-C8FD-473C-AE5E-4924E5B2D63F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CLServerEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AccepterBase.cpp" />
+    <ClCompile Include="Acceptor.cpp" />
+    <ClCompile Include="Connecter.cpp" />
+    <ClCompile Include="ConnecterBase.cpp" />
+    <ClCompile Include="Core.cpp" />
+    <ClCompile Include="CriticalSection.cpp" />
+    <ClCompile Include="DataEncryption.cpp" />
+    <ClCompile Include="Dispatcher.cpp" />
+    <ClCompile Include="IniReader.cpp" />
+    <ClCompile Include="IOCompletionPort.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="LogConnector.cpp" />
+    <ClCompile Include="NetworkUnit.cpp" />
+    <ClCompile Include="Percentage.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Registry.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="ServerWorkThread.cpp" />
+    <ClCompile Include="SharedMemory.cpp" />
+    <ClCompile Include="SharedObject.cpp" />
+    <ClCompile Include="Sock.cpp" />
+    <ClCompile Include="SockAddr.cpp" />
+    <ClCompile Include="Thread.cpp" />
+    <ClCompile Include="ThreadManager.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="QueueBuffer.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="TimeDispatcher.cpp" />
+    <ClCompile Include="TimeEvent.cpp" />
+    <ClCompile Include="User.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccepterBase.h" />
+    <ClInclude Include="Acceptor.h" />
+    <ClInclude Include="CommonHeader.h" />
+    <ClInclude Include="Connecter.h" />
+    <ClInclude Include="ConnecterBase.h" />
+    <ClInclude Include="Core.h" />
+    <ClInclude Include="CriticalSection.h" />
+    <ClInclude Include="DataEncryption.h" />
+    <ClInclude Include="Dispatcher.h" />
+    <ClInclude Include="IniReader.h" />
+    <ClInclude Include="IOCompletionPort.h" />
+    <ClInclude Include="Listener.h" />
+    <ClInclude Include="LogConnector.h" />
+    <ClInclude Include="NetworkUnit.h" />
+    <ClInclude Include="Percentage.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="Registry.h" />
+    <ClInclude Include="SecurityCode.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="ServerWorkThread.h" />
+    <ClInclude Include="SharedMemory.h" />
+    <ClInclude Include="SharedObject.h" />
+    <ClInclude Include="Sock.h" />
+    <ClInclude Include="SockAddr.h" />
+    <ClInclude Include="Thread.h" />
+    <ClInclude Include="ThreadManager.h" />
+    <ClInclude Include="QueueBuffer.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="TimeDispatcher.h" />
+    <ClInclude Include="TimeEvent.h" />
+    <ClInclude Include="User.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Note.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

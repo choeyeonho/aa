@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{2de4157a-5e43-48fe-b535-63af1ed6bc32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Utility">
+      <UniqueIdentifier>{31c0f6a4-b1e3-4050-b0ff-83895e73b410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Utility\SharedMemory">
+      <UniqueIdentifier>{15b75952-e56a-4716-bcab-f49706387609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Utility\SharedMemory\SharedObject">
+      <UniqueIdentifier>{2de40c3f-d3fe-41de-b069-b57ddbdf5f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Utility\SharedMemory\Processer">
+      <UniqueIdentifier>{ff83f67b-95c2-433e-afa4-fd42e47b1af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Utility\Random">
+      <UniqueIdentifier>{8055df5e-b374-4701-a247-9424dfff0efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Utility\Time">
+      <UniqueIdentifier>{8797d63d-06f1-4273-b158-23c29580fbca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Utility\Dump">
+      <UniqueIdentifier>{ab37d85d-b9f1-4fd8-9c2e-f124a168adb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Utility\IniFile">
+      <UniqueIdentifier>{3727fad1-2f47-455c-858d-0493ee173bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Utility\Registry">
+      <UniqueIdentifier>{40b74c89-a7a0-4ec8-bee4-4a708fefd15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Utility\Synchornization">
+      <UniqueIdentifier>{3f730529-2405-4536-8673-3b713786756d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Utility\TXTEditor">
+      <UniqueIdentifier>{48a3d99f-566c-444b-a4ae-b1fc15d31011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Utility\Service%28SCM%29">
+      <UniqueIdentifier>{21b5b773-851b-4e08-a7bc-54adc0d9adda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Buffer">
+      <UniqueIdentifier>{346e705a-f2bf-4dd3-a0b7-04617a74b5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Common">
+      <UniqueIdentifier>{c05a0f66-a576-47fd-837a-db0fe5acc5e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Encryprion">
+      <UniqueIdentifier>{314620c3-994d-4d5b-8eb0-8e50d902376d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Encryprion\securityCode">
+      <UniqueIdentifier>{3e6f4db2-22d4-4d87-8cf1-cfc5c2311b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Network">
+      <UniqueIdentifier>{a08ece68-8d14-4deb-b637-dd74df935cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Network\TCP">
+      <UniqueIdentifier>{8a1cc4be-5025-4f7a-a0bc-732b860674f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Network\TCP\IOCP">
+      <UniqueIdentifier>{036c3513-e64c-48f0-b431-0983f107ff50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Network\TCP\Server">
+      <UniqueIdentifier>{b961296b-3278-4e17-888f-f0ba3274dc9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Network\TCP\Server\Log">
+      <UniqueIdentifier>{91a9dc7e-dc99-4c8f-ae6f-de50f98c45b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Network\TCP\Socket">
+      <UniqueIdentifier>{62125063-515e-4c81-a7be-f954f3e942e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Network\TCP\Network_Function">
+      <UniqueIdentifier>{b99ccf3e-de9c-4f87-9e14-ff3c838acc45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Processer">
+      <UniqueIdentifier>{785aeb6b-3265-465e-ba89-60f4f83ddb9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Session">
+      <UniqueIdentifier>{5a36664f-4bc9-46be-ad54-bbba2dfb86b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Thread">
+      <UniqueIdentifier>{73dd9e9c-444b-4458-86f1-b93d968f3bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Thread\Core">
+      <UniqueIdentifier>{4d633bf4-f306-49b5-ab76-34fdfd223bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppTest">
+      <UniqueIdentifier>{6ab436a8-0736-429c-b0a3-6c8dc80502a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\_Network\TCP\Server\WorkThread">
+      <UniqueIdentifier>{168c4c8d-86cd-41e4-a6d6-a7c3e2ff0e3c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataEncryption.cpp">
+      <Filter>Lib\_Encryprion</Filter>
+    </ClCompile>
+    <ClCompile Include="QueueBuffer.cpp">
+      <Filter>Lib\_Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>Lib\_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Lib\_Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Percentage.cpp">
+      <Filter>Lib\_Utility\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Lib\_Utility\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Lib\_Utility\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeDispatcher.cpp">
+      <Filter>Lib\_Utility\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeEvent.cpp">
+      <Filter>Lib\_Utility\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedObject.cpp">
+      <Filter>Lib\_Utility\SharedMemory\SharedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedMemory.cpp">
+      <Filter>Lib\_Utility\SharedMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnecterBase.cpp">
+      <Filter>Lib\_Network\TCP\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="AccepterBase.cpp">
+      <Filter>Lib\_Network\TCP\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCompletionPort.cpp">
+      <Filter>Lib\_Network\TCP\IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Sock.cpp">
+      <Filter>Lib\_Network\TCP\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Lib\_Network\TCP\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Lib\_Thread\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SockAddr.cpp">
+      <Filter>Lib\_Network\TCP\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Listener.cpp">
+      <Filter>Lib\_Network\TCP\Network_Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Connecter.cpp">
+      <Filter>Lib\_Network\TCP\Network_Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Acceptor.cpp">
+      <Filter>Lib\_Network\TCP\Network_Function</Filter>
+    </ClCompile>
+    <ClCompile Include="LogConnector.cpp">
+      <Filter>Lib\_Network\TCP\Server\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="CriticalSection.cpp">
+      <Filter>Lib\_Utility\Synchornization</Filter>
+    </ClCompile>
+    <ClCompile Include="Dispatcher.cpp">
+      <Filter>Lib\_Processer</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Lib\_Session</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkUnit.cpp">
+      <Filter>Lib\_Network\TCP\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerWorkThread.cpp">
+      <Filter>Lib\_Network\TCP\Server\WorkThread</Filter>
+    </ClCompile>
+    <ClCompile Include="IniReader.cpp">
+      <Filter>Lib\_Utility\IniFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>Lib\_Utility\Registry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataEncryption.h">
+      <Filter>Lib\_Encryprion</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueBuffer.h">
+      <Filter>Lib\_Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>Lib\_Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Lib\_Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Lib\_Utility\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Percentage.h">
+      <Filter>Lib\_Utility\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Lib\_Utility\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeDispatcher.h">
+      <Filter>Lib\_Utility\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeEvent.h">
+      <Filter>Lib\_Utility\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="SecurityCode.h">
+      <Filter>Lib\_Encryprion\securityCode</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedObject.h">
+      <Filter>Lib\_Utility\SharedMemory\SharedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedMemory.h">
+      <Filter>Lib\_Utility\SharedMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonHeader.h">
+      <Filter>Lib\_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnecterBase.h">
+      <Filter>Lib\_Network\TCP\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="AccepterBase.h">
+      <Filter>Lib\_Network\TCP\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCompletionPort.h">
+      <Filter>Lib\_Network\TCP\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Sock.h">
+      <Filter>Lib\_Network\TCP\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Lib\_Network\TCP\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Lib\_Thread\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SockAddr.h">
+      <Filter>Lib\_Network\TCP\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>Lib\_Network\TCP\Network_Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Connecter.h">
+      <Filter>Lib\_Network\TCP\Network_Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Acceptor.h">
+      <Filter>Lib\_Network\TCP\Network_Function</Filter>
+    </ClInclude>
+    <ClInclude Include="LogConnector.h">
+      <Filter>Lib\_Network\TCP\Server\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSection.h">
+      <Filter>Lib\_Utility\Synchornization</Filter>
+    </ClInclude>
+    <ClInclude Include="Dispatcher.h">
+      <Filter>Lib\_Processer</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Lib\_Session</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkUnit.h">
+      <Filter>Lib\_Network\TCP\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerWorkThread.h">
+      <Filter>Lib\_Network\TCP\Server\WorkThread</Filter>
+    </ClInclude>
+    <ClInclude Include="IniReader.h">
+      <Filter>Lib\_Utility\IniFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>Lib\_Utility\Registry</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Note.txt" />
+  </ItemGroup>
+</Project>
