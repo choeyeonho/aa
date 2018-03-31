@@ -17,7 +17,7 @@ CConnecterBase::~CConnecterBase(void)
 {
 	m_dispatchers.clear();
 }
-
+//< 이승하 김규리
 BOOL CConnecterBase::Initializing(const int _nIndex, char* _pIP, const int _nPort, const int _nSendBufSize,const int _nRecvBufSize)
 {
 	//< 소켓 초기화
